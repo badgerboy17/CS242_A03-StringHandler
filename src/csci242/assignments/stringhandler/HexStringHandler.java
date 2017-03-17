@@ -64,11 +64,6 @@ public class HexStringHandler implements StringHandler, Validator
     {
         validHex = isValid();
         number = getNumber();
-
-        // Tried to get int length value of inputted string but wouldn't compile...
-        //HexStringHandler hex1 = new HexStringHandler();
-        //StringParser sp = new StringParser(hex1);
-        //countHex = sp.s.length();
     }
 
     /**
